@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+
+header{
+    display: flex;
+    background-image: url("../img/sindical_move.jpeg");
+    background-size: contain;
+    height: 200px;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imp{
+    font-size: 400%;
+    padding: 10px;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text-box{
+    align-self: flex-start;
+    background-color: #8b7272;
+    width: 40vw;
+    margin:10px;
+    height: fit-content;
+    font-size:large;
+    padding:10px;
+}
+
+    .boxTitle{
+        font-weight: bold;
+    }
